@@ -1,3 +1,4 @@
+
 resource "azurerm_subnet" "subnet" {
   for_each = var.subnets
 
